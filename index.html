@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+        }
+        nav {
+            background-color: green;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .paragraph img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    <div class="container">
+        <h1>Heading 1</h1>
+        <div class="paragraph">
+            <p>
+                <img src="image1.jpg" alt="Sample Image">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque leo ut lorem scelerisque, vel malesuada nunc gravida.
+            </p>
+        </div>
+        <h2>Heading 2</h2>
+        <p>
+            Curabitur suscipit, sem sit amet sollicitudin aliquet, odio leo fermentum nisi, vel congue lacus augue a metus. Fusce ac cursus orci, non accumsan mauris.
+        </p>
+        <h2>Heading 3</h2>
+        <p>
+            Phasellus tincidunt libero eu justo vehicula, a sollicitudin est consequat. Vestibulum ac ultrices justo, ut commodo ligula. Cras non magna auctor, fermentum odio ut, hendrerit dui.
+        </p>
+    </div>
 </body>
 </html>
+
